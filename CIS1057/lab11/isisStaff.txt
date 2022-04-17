@@ -1,0 +1,6 @@
+1|Archer, Malory|CEO|500000.0
+2|Archer, Sterling|Agent|250000.0
+3|Kane, Lana|Agent|300000.0
+4|Figus, Ceril|Accountant|100000.0
+5|Tunt, Cheryl|Secretary|65000.0
+6|Poovey, Pam|HR|85000.0

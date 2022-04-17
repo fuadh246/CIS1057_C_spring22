@@ -1,0 +1,5 @@
+1 BlueJeans 40 19.99
+2 Shorts 51 12.99
+3 LongSleeveShirt 32 9.99
+4 ShortSleeveShirt 63 7.99
+5 Shoes 24 29.99

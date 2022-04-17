@@ -1,0 +1,35 @@
+I.S.I.S. Expense Report
+
+1 Archer, Malory CEO $500000.00
+	Dinner $456.23
+	Air Travel $692.12
+	Spa Day $725.00
+Total: $1873.35
+
+2 Archer, Sterling Agent $250000.00
+	Bar Bill $392.34
+	Glenghoulie Blue $320.00
+	Bar Bill $523.54
+Total: $1235.88
+
+3 Kane, Lana Agent $300000.00
+	Explosives $550.00
+	Firearms $2343.56
+	Amunition $245.98
+Total: $3139.54
+
+4 Figus, Ceril Accountant $100000.00
+	Lunch $52.45
+	Ledger $23.45
+Total: $75.90
+
+5 Tunt, Cheryl Secretary $65000.00
+	Copy Paper $56.23
+	Staples $12.09
+Total: $68.32
+
+6 Poovey, Pam HR $85000.00
+	Milk $4.50
+	Cheese $7.89
+Total: $12.39
+
