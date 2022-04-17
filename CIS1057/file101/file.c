@@ -15,26 +15,30 @@ typedef struct{
 int read_text(char *file_name,int i_array[],double d_array[]);
 int write_text(char *file_name,int i_array[],double d_array[],int count);
 int read_car(char file_name[], car cars[]);
+int write_binary(char file_name[],int count, int i_array[], double d_array[]);
+int read_binary(char *file_name,int i_array[],double d_array[],int count);
 
 int main(){
     //how to read file with spaces.
-    /*int i_array[5];
+    int i_array[5];
     double d_array[5];
     int count = 0;
     double total;
 
-    //count = read_text("nums.txt",i_array,d_array);
+    count = read_text("nums.txt",i_array,d_array);
     //int i = write_text("num2.csv",i_array,d_array,count);
     //for (int i = 0; i < count; i++)
     //{
     //    total += d_array[i];
     //}
     //printf("total = %.2f\n",total);
-*/
-
     //text file with coma
     car cars[10];
-    read_car("cars.txt",cars);
+    //read_car("cars.txt",cars);
+
+    //binary file 
+    write_binary("binaryfile.bin",count,i_array,d_array);
+    read_binary("binaryfile.bin",i_array,d_array,count);
     return 0;
 }
 
@@ -83,6 +87,30 @@ int read_car(char file_name[], car cars[]){
             printf("%s\n",cars[count].make);
             count++;
         }
+    fclose(file);
+    return count;
+}
+
+int write_binary(char file_name[],int count, int i_array[], double d_array[]){
+    int i = 0;
+    FILE *file = fopen(file_name,"wb");
+    if(file == NULL){
+        perror("Output file failed to open");
+        exit(5);
+    }
+    fwrite(i_array,count,sizeof(int),file);
+    fwrite(d_array,count,sizeof(double),file);
+    fclose(file);
+    return count;
+}
+int read_binary(char *file_name,int i_array[],double d_array[],int count){
+    FILE *file = fopen(file_name,"rb");
+    if(file == NULL){
+        perror("Input file failed to open");
+        exit(6);
+    }
+    fread(i_array,count,sizeof(int),file);
+    fread(d_array,count,sizeof(double),file);
     fclose(file);
     return count;
 }
