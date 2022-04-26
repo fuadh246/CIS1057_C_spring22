@@ -1,0 +1,6 @@
+The averages are:
+Average high 69.50
+Average low 51.20
+Average precipitation 28.40
+Average wind 8.50
+Average humidity 57.90

@@ -1,0 +1,5 @@
+  1            BlueJeans         32      19.00     608.00
+  2               Shorts         43      12.00     608.00
+  3      LongSleeveShirt         24       9.00     608.00
+  4     ShortSleeveShirt         55       7.00     608.00
+  5                Shoes         16      29.00     608.00
